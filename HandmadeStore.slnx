@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="HandmadeStore.API/HandmadeStore.API.csproj" />
+  </Folder>
+  <Folder Name="/Application/">
+    <Project Path="HandmadeStore.Application/HandmadeStore.Application.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="HandmadeStore.Domain/HandmadeStore.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="HandmadeStore.Infrastructure/HandmadeStore.Infrastructure.csproj" Id="612a0a35-fcc0-496f-a390-989db56d4843" />
+  </Folder>
+</Solution>
