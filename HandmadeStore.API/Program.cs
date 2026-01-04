@@ -16,11 +16,11 @@
 
     var builder = WebApplication.CreateBuilder(args);
 
-    // Controllers
-    builder.Services.AddControllers();
+    builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
-    // Database
-    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+
+// Database
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
         options.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnection")));
 
